@@ -1,0 +1,110 @@
+/* Definir o fundo da página */
+body {
+    background-color: #f0f0f0; /* Cor neutra de fundo */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilos para os títulos e parágrafos */
+  h1, h2, h3, h4, h5, h6 {
+    font-size: 2em; /* Ajuste de tamanho para títulos */
+    color: #333; /* Cor escura para o texto */
+    text-align: center; /* Alinhamento dos títulos */
+    font-weight: bold; /* Negrito para os títulos */
+  }
+  
+  p {
+    font-size: 1em; /* Tamanho do texto para parágrafos */
+    color: #666; /* Cor do texto */
+    text-align: justify; /* Alinhar texto no parágrafo */
+    line-height: 1.6; /* Melhorar a legibilidade */
+  }
+  
+  /* Organizar os elementos com margens e preenchimento */
+.container {
+    margin: 20px; /* Margem externa */
+    padding: 15px; /* Preenchimento interno */
+  }
+  
+  /* Adicionar espaçamento entre os elementos principais */
+  section {
+    margin-bottom: 20px; /* Espaçamento entre as seções */
+  }
+  
+  h1 {
+    margin-top: 20px; /* Espaçamento superior para o título */
+  }
+
+/* Modificar comportamento dos elementos */
+div {
+    display: block; /* Exibe como bloco */
+  }
+  
+  span {
+    display: inline; /* Exibe como inline */
+  }
+  
+  .button {
+    display: inline-block; /* Botões como inline-block */
+    margin: 10px;
+    padding: 10px 20px;
+    background-color: #007BFF; /* Cor de fundo */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .hidden {
+    display: none; /* Esconde elementos */
+  }
+  
+  /* Estilizar links */
+a {
+    color: #007BFF; /* Cor azul para os links */
+    text-decoration: none; /* Remover sublinhado */
+    font-weight: bold; /* Deixar o texto em negrito */
+  }
+  
+  a:hover {
+    color: #0056b3; /* Cor ao passar o mouse */
+  }
+  
+  /* Estilizar os campos do formulário */
+input, textarea {
+    width: 100%; /* Campo de entrada ocupa toda a largura */
+    padding: 10px;
+    margin-bottom: 15px; /* Espaço entre os campos */
+    border: 1px solid #ccc; /* Borda leve */
+    border-radius: 4px; /* Bordas arredondadas */
+  }
+  
+  textarea {
+    height: 150px; /* Altura maior para o textarea */
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto; /* Centraliza o formulário */
+  }
+  
+  /* Estilizar tabelas */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Deixa a tabela mais compacta */
+  }
+  
+  th, td {
+    border: 1px solid #ddd; /* Bordas nas células */
+    padding: 10px; /* Espaçamento dentro das células */
+  }
+  
+  th {
+    background-color: #007BFF; /* Cor de fundo para os cabeçalhos */
+    color: white; /* Cor do texto do cabeçalho */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9; /* Cor alternada para as linhas */
+  }
+  
