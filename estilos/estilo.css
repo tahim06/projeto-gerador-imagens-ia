@@ -1,110 +1,182 @@
-/* Definir o fundo da página */
 body {
-    background-color: #f0f0f0; /* Cor neutra de fundo */
-    font-family: Arial, sans-serif; /* Fonte padrão */
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Estilos para os títulos e parágrafos */
-  h1, h2, h3, h4, h5, h6 {
-    font-size: 2em; /* Ajuste de tamanho para títulos */
-    color: #333; /* Cor escura para o texto */
-    text-align: center; /* Alinhamento dos títulos */
-    font-weight: bold; /* Negrito para os títulos */
-  }
-  
-  p {
-    font-size: 1em; /* Tamanho do texto para parágrafos */
-    color: #666; /* Cor do texto */
-    text-align: justify; /* Alinhar texto no parágrafo */
-    line-height: 1.6; /* Melhorar a legibilidade */
-  }
-  
-  /* Organizar os elementos com margens e preenchimento */
-.container {
-    margin: 20px; /* Margem externa */
-    padding: 15px; /* Preenchimento interno */
-  }
-  
-  /* Adicionar espaçamento entre os elementos principais */
-  section {
-    margin-bottom: 20px; /* Espaçamento entre as seções */
-  }
-  
-  h1 {
-    margin-top: 20px; /* Espaçamento superior para o título */
-  }
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  padding-top: 60px;
+}
 
-/* Modificar comportamento dos elementos */
+h1, h2, h3, h4, h5, h6 {
+  font-size: 2em;
+  color: #333;
+  text-align: center;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1em;
+  color: #666;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+.container {
+  margin: 20px;
+  padding: 15px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-top: 20px;
+}
+
 div {
-    display: block; /* Exibe como bloco */
-  }
-  
-  span {
-    display: inline; /* Exibe como inline */
-  }
-  
-  .button {
-    display: inline-block; /* Botões como inline-block */
-    margin: 10px;
-    padding: 10px 20px;
-    background-color: #007BFF; /* Cor de fundo */
-    color: white;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  .hidden {
-    display: none; /* Esconde elementos */
-  }
-  
-  /* Estilizar links */
+  display: block;
+}
+
+span {
+  display: inline;
+}
+
+.button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+.hidden {
+  display: none;
+}
+
 a {
-    color: #007BFF; /* Cor azul para os links */
-    text-decoration: none; /* Remover sublinhado */
-    font-weight: bold; /* Deixar o texto em negrito */
-  }
-  
-  a:hover {
-    color: #0056b3; /* Cor ao passar o mouse */
-  }
-  
-  /* Estilizar os campos do formulário */
+  color: #007BFF;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
 input, textarea {
-    width: 100%; /* Campo de entrada ocupa toda a largura */
-    padding: 10px;
-    margin-bottom: 15px; /* Espaço entre os campos */
-    border: 1px solid #ccc; /* Borda leve */
-    border-radius: 4px; /* Bordas arredondadas */
-  }
-  
-  textarea {
-    height: 150px; /* Altura maior para o textarea */
-  }
-  
-  form {
-    max-width: 600px;
-    margin: 0 auto; /* Centraliza o formulário */
-  }
-  
-  /* Estilizar tabelas */
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  height: 150px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
 table {
-    width: 100%;
-    border-collapse: collapse; /* Deixa a tabela mais compacta */
-  }
-  
-  th, td {
-    border: 1px solid #ddd; /* Bordas nas células */
-    padding: 10px; /* Espaçamento dentro das células */
-  }
-  
-  th {
-    background-color: #007BFF; /* Cor de fundo para os cabeçalhos */
-    color: white; /* Cor do texto do cabeçalho */
-  }
-  
-  tr:nth-child(even) {
-    background-color: #f9f9f9; /* Cor alternada para as linhas */
-  }
-  
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+th {
+  background-color: #007BFF;
+  color: white;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+nav {
+  background-color: #007BFF;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  background-color: #0056b3;
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin: 0 5px;
+  display: inline-block;
+}
+
+nav a:hover {
+  background-color: #003f88;
+}
+
+section ul {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+div > h2 {
+  color: #444;
+  border-bottom: 2px solid #007BFF;
+  padding-bottom: 5px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+}
+
+button:active {
+  background-color: #004a99;
+  transform: scale(0.98);
+}
+
+td {
+  position: relative;
+}
+
+td img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  height: auto;
+}
+
+label[for="email"] {
+  position: relative;
+  top: 0;
+  left: 0;
+  font-weight: bold;
+}
+
+input[type="email"] {
+  position: relative;
+  top: 0;
+}
