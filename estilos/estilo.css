@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: Arial, sans-serif;
-  background-color: #eeeeee;
+  background-color: white;
   padding-top: 60px;
 }
 
@@ -78,7 +78,6 @@ img {
   margin: 0 auto 20px;
 }
 
-/* --- FORMULÁRIO BONITO --- */
 form {
   background-color: white;
   max-width: 700px;
