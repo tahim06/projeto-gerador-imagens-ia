@@ -291,3 +291,6 @@ footer {
     border-bottom: 1px solid #ccc;
   }
 }
+table tr td{
+  text-align: center;
+}
