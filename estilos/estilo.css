@@ -250,3 +250,44 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
+.galeria table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.galeria td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  vertical-align: top;
+}
+
+.galeria img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.galeria p {
+  font-weight: bold;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .galeria table,
+  .galeria tr,
+  .galeria td {
+    display: block;
+    width: 100%;
+  }
+
+  .galeria td {
+    margin-bottom: 20px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+}
